@@ -1,0 +1,67 @@
+.home {
+    background-image: url(../public/fundo.png)
+}
+
+.quem-somos {
+    background-image: url(../public/fundo2.png)
+}
+
+.contato {
+    background-image: url(../public/fundo2.png)
+}
+
+#links {
+    display: inline;
+    position: absolute;
+    top: 50px;
+    right: 325px;
+    
+}
+
+#links a {
+    text-decoration: none;
+    text-align: right;
+    border-right: 1px solid;
+    padding-right: 5px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#capa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 413px;
+}
+
+.home .corpo h1 {
+    font-size: 24px;
+}
+
+.texto {
+    text-align: justify;
+    font-weight: normal;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#direitos {
+    text-align: center;
+    font-weight: bold;
+}
+
+.quem-somos h1, h2, p, ol, hr {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+.contato h1, p, form {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}

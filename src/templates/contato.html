@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Contato{% endblock %}
+{% block class %}contato{% endblock %}
+{% block content %}
+<h1>Entre em contato</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptate consequuntur dolores totam. Voluptatum ipsa, perspiciatis repudiandae accusamus excepturi modi, aut est laudantium inventore facere iusto? Doloremque earum eius amet.</p>
+    <hr>
+    <form action="" method="POST">
+        <label for="email">Seu email:</label><br>
+        <input type="text" name="email"><br>
+        <label for="nome">Seu nome:</label><br>
+        <input type="text" name="nome"><br>
+        <label for="descricao">Descrição:</label><br>
+        <textarea name="descricao" cols="15" rows="3"></textarea><br>
+        <input type="submit" >
+    </form>
+{% endblock %}

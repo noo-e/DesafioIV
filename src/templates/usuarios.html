@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Contato{% endblock %}
+{% block class %}contato{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Descrição</th>
+    </tr>
+    {% for usuario in usuarios %}
+    <tr>
+        <td>{{usuario['nome_usuario']}}</td>
+        <td>{{usuario['email_usuario']}}</td>
+        <td>{{usuario['descricao_usuario']}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
